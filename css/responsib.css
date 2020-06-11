@@ -1,0 +1,212 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 575px) 
+{
+	header a.btn{
+		display: none;
+	}
+	.sid-nav{
+		display: none;
+	}
+	.middle .testimonial .single-testimonial{
+		text-align: center;
+	}
+	.middle .testimonial {
+		padding-top: 0px !important;
+	}
+	.middle .testimonial .single-testimonial .testimonial-text h4 a{
+		font-size: 14px !important;
+	}
+	.middle .testimonial .single-testimonial
+	.testimonial-text .test-text-link ul li{
+		font-size: 10px !important;
+	}
+	.middle .testimonial .single-testimonial
+	.testimonial-text .btn{
+		margin-bottom: 12px;
+	}
+	.middle .testimonial .single-testimonial
+	.testimonial-text .test-soc-link a{
+		height: 35px !important;
+		width: 35px !important;
+		line-height: 35px !important;
+	}
+	.middle .single-blog{
+		text-align: center;
+	}
+	.inst-text {
+		text-align: center;
+	} 
+	.middle .instructor .inst-text h4{
+		font-size: 18px !important;
+	}
+	.mb-sm-20{
+		margin-bottom: 20px;
+	}
+	.mt-sm-20{
+		margin-top: 20px;
+	}
+	.middle .single-blog .blog-img img{
+		width: 100%;
+	}
+	.middle .single-blog {
+		margin-bottom: 120px !important;
+	}
+	.middle .instructor .inst-img{
+		text-align: center;
+	}
+	.middle .instructor .inst-img  img{
+		width: 100%;
+	}
+	footer{
+		text-align: center;
+		font-size: 10px !important;
+	}
+	footer ul{
+		text-align: center !important;
+		margin-top: 8px;
+	}
+	.right-sidbar{
+		display: none;
+	}
+	.middle .single-blog {
+		height: 260px !important;
+	}
+	.middle .testimonial .single-testimonial .testimonial-img .tes-img-hov a {
+		font-size: 22px !important;
+	}
+	.logo-slider .single-logo-slider{
+		width: 8.666% !important;
+	}
+	.business .speical-bg-section{
+		padding: 20px !important;
+		text-align: center;
+	}
+	.business .speical-bg-section::before{
+		display: none;
+	}
+	.business .speical-bg-section .box-btn{
+		font-size: 8px;
+	}
+	.nav-pills .nav-link {
+		padding: 4px 10px !important;
+		margin: 0px 0px !important;
+		font-size: 10px !important;
+	}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) 
+{
+	header a.btn{
+		display: none;
+	}
+	.sid-nav{
+		display: none;
+	}
+	.middle .testimonial .single-testimonial{
+		text-align: center;
+	}
+	.middle .testimonial .single-testimonial .testimonial-text h4 a {
+		font-size: 20px !important
+	}
+	.middle .testimonial .single-testimonial .testimonial-text .test-text-link ul li{
+		font-size: 10px !important;
+	}
+	.middle .single-blog{
+		text-align: center;
+	}
+	.middle .single-blog .blog-img img{
+		width: 100%;
+	}
+	.middle .single-blog{
+		margin-bottom: 70px !important;
+	}
+	.instructor{
+		text-align: center;
+	}
+	.middle .instructor .inst-img img{
+		width: 100%;
+	}
+	.mt-sm-20{
+		margin-top: 20px;
+	}
+	.mb-sm-20{
+		margin-bottom: 20px;
+	}
+	footer{
+		text-align: center;
+	}
+	footer ul{
+		text-align: center !important;
+		margin-top: 10px;
+	}
+	.right-sidbar{
+		display: none;
+	}
+	.logo-slider .single-logo-slider {
+		width: 12.666% !important;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+	header a.btn{
+		display: none;
+	}
+	.sid-nav{
+		display: none;
+	}
+	.middle .testimonial .single-testimonial{
+		text-align: center;
+	}
+	.middle .single-blog .blog-img img{
+		width: 100%;
+	}
+	.middle .single-blog{
+		text-align: center;
+		margin-bottom: 100px !important;
+	}
+	.instructor{
+		text-align: center;
+	}
+	.middle .instructor .inst-img img{
+		width: 100%;
+	}
+	.mt-sm-20{
+		margin-top: 20px;
+	}
+	.mb-sm-20{
+		margin-bottom: 20px;
+	}
+	footer{
+		text-align: center;
+	}
+	footer ul{
+		text-align: center !important;
+		margin-top: 10px;
+	}
+	.right-sidbar{
+		display: none;
+	}
+	.middle .testimonial .single-testimonial .testimonial-img img{
+		width: 100%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) 
+{
+	.single-sid-nav h3{
+		font-size: 14px !important;
+	}
+	.business .speical-bg-section .box-btn{
+		padding: 10px 18px !important;
+		font-size: 10px !important;
+	}
+	.logo-slider .single-logo-slider {
+		width: 12.666% !important;
+	}
+
+}
